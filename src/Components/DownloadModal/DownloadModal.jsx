@@ -83,7 +83,7 @@ export default function DownloadModal () {
                     </div>
                 </div>
                 <button className="download-button" onClick={handleDownloadFile}>Download Zip File</button>
-                <span style={{display: spanAlert ? "block" : "none" }}>Selecione no minimo 1 arquivo para baixar.</span>
+                <span style={{display: spanAlert ? "block" : "none" }}>Selecione no mínimo 1 arquivo para baixar.</span>
             </div>
         </div>
     )
