@@ -1,0 +1,66 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    width: 100%;
+    height: 46px;
+    background-color: #222;
+    color: rgb(231, 239, 247);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 7px;
+    padding: 7px 7px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.logo-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.project-name {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.project-name input {
+    width: 100%;
+    background-color: #222;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.project-name input:focus {
+    outline: none;
+}
+
+.nav-buttons {
+    display: flex;
+    width: auto;
+    gap: 6px;
+}
+
+.settings-icon, .download-icon {
+    padding: 7px 7px;
+    width: 17px;
+    height: 20px;
+    cursor: pointer;
+}
