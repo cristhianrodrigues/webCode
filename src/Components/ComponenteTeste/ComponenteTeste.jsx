@@ -47,7 +47,7 @@ const ComponenteTeste = () => {
     };
 
     return(
-        <SplitPane split="vertical" collapse={true}>
+        <SplitPane className="main-content" split="vertical" collapse={true}>
             <SplitPane split="horizontal" collapse={true} className='code-containar'>
                 <div className='code-card'>
                     <div className='code-description'>
