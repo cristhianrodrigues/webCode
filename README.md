@@ -20,4 +20,4 @@ Sinta-se à vontade para fazer uma cópia do projeto e editá-lo da maneira que 
 
 ## Licença
 
-[MIT](LICENSE) - Cristhian Rodirgues - 2024
+[MIT](LICENSE) - Cristhian Rodrigues - 2024
